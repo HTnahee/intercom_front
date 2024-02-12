@@ -29,7 +29,10 @@ import DeactivatePDF from './pages/DeactivatePDF';
 import MyCareer from './pages/MyCareer';
 import WrittenContent from './pages/WrittenContent';
 import Scrap from './pages/Scrap';
-
+import CoverLetterHome from './pages/CoverLetterHome';
+import CoverLetterInput from './pages/CoverLetterInput';
+import CoverLetterInput2 from './pages/CoverLetterInput2';
+import FindingPassword from './pages/FindingPassword';
 
 function App() {
   return (
@@ -70,6 +73,11 @@ function App() {
           <Route path="/profile-edit" element={<ProfileEdit />} />
           <Route path="/written-content" element={<WrittenContent />} />
           <Route path="/scrap" element={<Scrap />} />
+          <Route path="/cover-letters" element={<CoverLetterHome />} />
+          <Route path="/cover-letters-input" element={<CoverLetterInput />} />
+          <Route path="/cover-letters-input2" element={<CoverLetterInput2 />} />
+          <Route path="/findingpassword" element={<FindingPassword />} />
+          
           </Routes>
         </AuthProvider>
       </div>
